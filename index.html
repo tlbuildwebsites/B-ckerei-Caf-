@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="de-CH" class="no-js" data-area="baeckerei">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Democafé – Bäckerei & Café in Demostadt</title>
+<meta name="description" content="Democafé in Demostadt: Bäckerei mit frischem Brot, Zopf und Torten – und Café mit Rösterei-Kaffee, Frühstück und Cocktails. (Demo-Website)">
+<meta name="theme-color" content="#f6efe3">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/playfair-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script>(function(){var d=document.documentElement;d.classList.remove('no-js');var a=null;try{a=localStorage.getItem('democafe-bereich')}catch(e){}if(a==='cafe'||a==='baeckerei'){d.setAttribute('data-area',a);if(!/[?&]wahl\b/.test(location.search))d.classList.add('no-splash')}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('rm')})();</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="logo-stamp" viewBox="0 0 200 200">
+    <circle cx="100" cy="100" r="96.5" fill="none" stroke="currentColor" stroke-width="2.6"/>
+    <circle cx="100" cy="100" r="91" fill="none" stroke="currentColor" stroke-width=".8"/>
+    <circle cx="100" cy="100" r="62" fill="none" stroke="currentColor" stroke-width=".8"/>
+    <path id="lg-top" d="M24 100A76 76 0 0 1 176 100" fill="none"/>
+    <path id="lg-bot" d="M17.5 100A82.5 82.5 0 0 0 182.5 100" fill="none"/>
+    <text font-family="Playfair Display, Georgia, serif" font-size="19" font-weight="600" letter-spacing="4.2" fill="currentColor"><textPath href="#lg-top" startOffset="50%" text-anchor="middle">DEMOCAFÉ</textPath></text>
+    <text font-family="Figtree, Segoe UI, sans-serif" font-size="9.6" font-weight="600" letter-spacing="3.6" fill="currentColor"><textPath href="#lg-bot" startOffset="50%" text-anchor="middle">BÄCKEREI · CAFÉ</textPath></text>
+    <circle cx="23" cy="104" r="2.2" fill="currentColor"/><circle cx="177" cy="104" r="2.2" fill="currentColor"/>
+    <g fill="currentColor">
+      <g transform="translate(86 96) rotate(-20)">
+        <path d="M0 40Q1.5 4 0 -34" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <ellipse cx="0" cy="-38" rx="3" ry="7.5"/>
+        <ellipse cx="-5.2" cy="-26" rx="3.3" ry="7.6" transform="rotate(-28 -5.2 -26)"/><ellipse cx="5.2" cy="-26" rx="3.3" ry="7.6" transform="rotate(28 5.2 -26)"/>
+        <ellipse cx="-5.6" cy="-13" rx="3.4" ry="7.8" transform="rotate(-28 -5.6 -13)"/><ellipse cx="5.6" cy="-13" rx="3.4" ry="7.8" transform="rotate(28 5.6 -13)"/>
+        <ellipse cx="-5.6" cy="0" rx="3.4" ry="7.8" transform="rotate(-28 -5.6 0)"/><ellipse cx="5.6" cy="0" rx="3.4" ry="7.8" transform="rotate(28 5.6 0)"/>
+        <ellipse cx="-5.2" cy="13" rx="3.2" ry="7.2" transform="rotate(-28 -5.2 13)"/><ellipse cx="5.2" cy="13" rx="3.2" ry="7.2" transform="rotate(28 5.2 13)"/>
+        <path d="M-2 -44L-4 -56M2 -44L4 -56M0 -45V-58" stroke="currentColor" stroke-width=".9" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(117 101) rotate(26)">
+        <path d="M-1.6 -18C-18 -16.5 -18 16.5 -1.6 18C-7 6.5 3.8 -6.5 -1.6 -18Z"/>
+        <path d="M1.6 -18C-3.8 -6.5 7 6.5 1.6 18C18 16.5 18 -16.5 1.6 -18Z"/>
+      </g>
+    </g>
+    <text x="100" y="146" text-anchor="middle" font-family="Figtree, Segoe UI, sans-serif" font-size="7.4" font-weight="600" letter-spacing="2.6" fill="currentColor">DEMOSTADT</text>
+  </symbol>
+</svg>
+
+<a class="sr-only" href="#inhalt">Zum Inhalt springen</a>
+<header class="site-header on-hero">
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a class="brand" href="index.html" aria-label="Democafé – zur Startseite"><svg class="logo-stamp " viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#logo-stamp"/></svg><span class="brand-name">Democafé<small>Bäckerei · Café</small></span></a>
+    <ul class="nav-links"><li><a href="index.html" aria-current="page">Start</a></li><li><a href="ueber-uns.html">Über uns</a></li><li><a href="karte.html">Karte</a></li><li><a href="kaffee-guide.html">Kaffee-Guide</a></li><li><a href="torten.html">Torten bestellen</a></li><li><a href="reservieren.html">Tisch reservieren</a></li><li><a href="galerie.html">Galerie</a></li><li><a href="oeffnungszeiten.html">Öffnungszeiten</a></li><li><a href="kontakt.html">Kontakt</a></li></ul>
+    <div class="area-switch" role="group" aria-label="Bereich wechseln">
+      <span class="pill" aria-hidden="true"></span>
+      <button type="button" data-set-area="baeckerei">Bäckerei</button>
+      <button type="button" data-set-area="cafe">Café</button>
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+<div class="mobile-menu" id="mobile-menu">
+  <ul><li><a href="index.html" aria-current="page">Start<span aria-hidden="true">→</span></a></li><li><a href="ueber-uns.html">Über uns<span aria-hidden="true">→</span></a></li><li><a href="karte.html">Karte<span aria-hidden="true">→</span></a></li><li><a href="kaffee-guide.html">Kaffee-Guide<span aria-hidden="true">→</span></a></li><li><a href="torten.html">Torten bestellen<span aria-hidden="true">→</span></a></li><li><a href="reservieren.html">Tisch reservieren<span aria-hidden="true">→</span></a></li><li><a href="galerie.html">Galerie<span aria-hidden="true">→</span></a></li><li><a href="oeffnungszeiten.html">Öffnungszeiten<span aria-hidden="true">→</span></a></li><li><a href="kontakt.html">Kontakt<span aria-hidden="true">→</span></a></li></ul>
+  <div class="mm-foot">Backstubengasse 5, 9999 Demostadt<br><a href="tel:+41440000000">044 000 00 00</a> · <a href="mailto:info@democafe.ch">info@democafe.ch</a></div>
+</div>
+<main id="inhalt">
+
+<div class="splash" role="dialog" aria-modal="true" aria-label="Bereich wählen">
+  <button class="splash-half" type="button" data-area="baeckerei" aria-label="Zur Bäckerei">
+    <video  muted loop playsinline preload="none" poster="video/hero-baeckerei-poster.webp" data-src="video/hero-baeckerei.mp4" data-src-sm="video/hero-baeckerei-sm.mp4" aria-hidden="true"></video>
+    <span class="splash-label"><span class="kicker">Backstube &amp; Laden</span><span class="name">Bäckerei</span><span class="go">Eintreten <span aria-hidden="true">→</span></span></span>
+  </button>
+  <button class="splash-half" type="button" data-area="cafe" aria-label="Zum Café">
+    <video  muted loop playsinline preload="none" poster="video/hero-cafe-poster.webp" data-src="video/hero-cafe.mp4" data-src-sm="video/hero-cafe-sm.mp4" aria-hidden="true"></video>
+    <span class="splash-label"><span class="kicker">Kaffee &amp; Frühstück</span><span class="name">Café</span><span class="go">Eintreten <span aria-hidden="true">→</span></span></span>
+  </button>
+  <div class="splash-divider" aria-hidden="true"></div>
+  <div class="splash-center">
+    <svg class="logo-stamp " viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#logo-stamp"/></svg>
+    <p class="q">Wohin darf es gehen?</p>
+  </div>
+</div>
+
+<section class="hero" aria-label="Willkommen">
+  <div class="hero-media">
+    <video data-show="baeckerei" autoplay muted loop playsinline preload="none" poster="video/hero-baeckerei-poster.webp" data-src="video/hero-baeckerei.mp4" data-src-sm="video/hero-baeckerei-sm.mp4" aria-hidden="true"></video>
+    <video data-show="cafe" autoplay muted loop playsinline preload="none" poster="video/hero-cafe-poster.webp" data-src="video/hero-cafe.mp4" data-src-sm="video/hero-cafe-sm.mp4" aria-hidden="true"></video>
+  </div>
+  <div class="hero-inner">
+    <div class="hero-area" data-area="baeckerei">
+      <div class="hero-copy">
+        <p class="eyebrow">Bäckerei · seit 1998</p>
+        <h1>Jeden Morgen <em>frisch</em> gebacken</h1>
+        <p class="lead">Sauerteigbrot, Butterzopf und goldene Gipfeli – von Hand geformt in unserer Backstube mitten in der Altstadt von Demostadt.</p>
+        <div class="btn-row">
+          <a class="btn btn--light" href="torten.html">Torte bestellen <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn--outline-light" href="karte.html#baeckerei">Unser Sortiment</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-area" data-area="cafe">
+      <div class="hero-copy">
+        <p class="eyebrow">Café · Kaffee, Frühstück &amp; Apéro</p>
+        <h1>Ihr Ort zum <em>Ankommen</em></h1>
+        <p class="lead">Ein Cappuccino am Fenster, ein langes Frühstück mit Freunden oder ein Spritz zum Feierabend – bei uns nehmen Sie sich Zeit.</p>
+        <div class="btn-row">
+          <a class="btn btn--light" href="reservieren.html">Tisch reservieren <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn--outline-light" href="karte.html#cafe">Zur Karte</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class="hero-scroll" aria-hidden="true">Scrollen</span>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div class="photo-stack reveal">
+      <figure class="a">
+        <img data-show="baeckerei" src="img/baecker.webp" width="1600" height="1066" alt="Bäcker formt Teig in der Backstube" loading="lazy" decoding="async">
+        <img data-show="cafe" src="img/cafe-innen.webp" width="1600" height="1066" alt="Gemütlicher Café-Salon mit Sesseln" loading="lazy" decoding="async">
+      </figure>
+      <figure class="b">
+        <img data-show="baeckerei" src="img/croissants.webp" width="1600" height="1066" alt="Frische Buttergipfeli" loading="lazy" decoding="async">
+        <img data-show="cafe" src="img/latte-art.webp" width="1600" height="900" alt="Cappuccino mit Latte-Art" loading="lazy" decoding="async">
+      </figure>
+      <div class="badge"><span><strong>1998</strong>in Demostadt</span></div>
+    </div>
+    <div>
+      <p class="eyebrow reveal">Willkommen bei Democafé</p>
+      <h2 class="reveal" data-delay="1">Zwei Welten, <em>ein</em> Zuhause</h2>
+      <p class="lead reveal" data-delay="2" data-show="baeckerei">Um vier Uhr morgens brennt bei uns schon Licht: Dann wird geknetet, geformt und gebacken – ohne Fertigmischungen, mit Mehl aus der Region und viel Geduld.</p>
+      <p class="lead reveal" data-delay="2" data-show="cafe">Gleich neben der Backstube liegt unser Café: knarrender Holzboden, weiche Sessel und Kaffee, den wir mit einer kleinen Rösterei aus der Region entwickelt haben.</p>
+      <div class="features">
+        <div class="feature reveal" data-delay="1"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 30V8"/><path d="M16 12c-3-1-5-4-5-7 3 1 5 4 5 7zM16 12c3-1 5-4 5-7-3 1-5 4-5 7zM16 18c-3-1-5-4-5-7 3 1 5 4 5 7zM16 18c3-1 5-4 5-7-3 1-5 4-5 7zM16 24c-3-1-5-4-5-7 3 1 5 4 5 7zM16 24c3-1 5-4 5-7-3 1-5 4-5 7z"/></svg><div><h4>Langzeitführung</h4><p>Unsere Brote reifen bis zu 48 Stunden.</p></div></div>
+        <div class="feature reveal" data-delay="2"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><ellipse cx="16" cy="16" rx="9" ry="13" transform="rotate(25 16 16)"/><path d="M11 5c4 5-2 12 3 22" transform="rotate(25 16 16)"/></svg><div><h4>Eigene Hausmischung</h4><p>Frisch geröstet, fair eingekauft.</p></div></div>
+        <div class="feature reveal" data-delay="3"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 26C6 12 14 6 27 5c0 13-7 21-21 21z"/><path d="M6 26 18 14"/></svg><div><h4>Regional</h4><p>Mehl, Milch und Butter aus der Umgebung.</p></div></div>
+        <div class="feature reveal" data-delay="4"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M16 27S4 20 4 11.5A6.5 6.5 0 0 1 16 8a6.5 6.5 0 0 1 12 3.5C28 20 16 27 16 27z"/></svg><div><h4>Von Hand</h4><p>Jeder Zopf wird von Hand geflochten.</p></div></div>
+      </div>
+      <p style="margin-top:2rem" class="reveal"><a class="link-arrow" href="ueber-uns.html">Unsere Geschichte <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+    </div>
+  </div>
+</section>
+
+<section class="menu-scene" aria-label="Ihr Menü entsteht">
+  <div class="sticky">
+    <div class="ms-intro">
+      <p class="eyebrow">Langsam scrollen</p>
+      <h2>Ihr Menü <em>entsteht</em></h2>
+    </div>
+    <div class="ms-copy"></div>
+    <div class="ms-stage-wrap"></div>
+    <div class="ms-progress" aria-hidden="true"></div>
+    <div class="ms-finale">
+      <h2>Ihr perfekter <em>Moment</em> bei uns</h2>
+      <p>Das ganze Menü zusammen: <span class="total ms-total"></span></p>
+      <a class="btn" href="reservieren.html">Tisch reservieren <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+  <div class="ms-static">
+    <div class="wrap">
+      <div class="section-head center">
+        <p class="eyebrow">Schritt für Schritt</p>
+        <h2>Ihr Menü <em>entsteht</em></h2>
+      </div>
+      <div class="ms-static-grid"></div>
+      <div class="center" style="margin-top:56px">
+        <h2>Ihr perfekter <em>Moment</em> bei uns</h2>
+        <p>Das ganze Menü zusammen: <span class="total ms-total"></span></p>
+        <a class="btn" href="reservieren.html">Tisch reservieren <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="ornament"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c.6 4.4 2.6 6.4 7 7-4.4.6-6.4 2.6-7 7-.6-4.4-2.6-6.4-7-7 4.4-.6 6.4-2.6 7-7z" transform="translate(0 3)"/></svg></div>
+      <p class="eyebrow reveal">Entdecken</p>
+      <h2 class="reveal" data-delay="1">Was darf es <em>heute</em> sein?</h2>
+    </div>
+    <div class="cards">
+      <a class="card reveal" href="karte.html">
+        <div class="card-img"><img src="img/fruehstueck.webp" alt="Frühstückstisch mit Gebäck und Kaffee" width="1600" height="1066" loading="lazy" decoding="async"></div>
+        <div class="card-body"><h3>Die Karte</h3><p>Frühstück, Mittagsmenü, Kaffee und Cocktails – plus unser ganzes Brot- und Gebäcksortiment.</p><span class="link-arrow">Zur Karte <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </a>
+      <a class="card reveal" data-delay="1" href="kaffee-guide.html">
+        <div class="card-img"><img src="img/espresso-bezug.webp" alt="Espresso läuft in eine Tasse" width="1600" height="1204" loading="lazy" decoding="async"></div>
+        <div class="card-body"><h3>Kaffee-Guide</h3><p>Vom Espresso bis zum Cold Brew: Schichten, Bohnen-Herkunft und Röstgrade einfach erklärt.</p><span class="link-arrow">Mehr erfahren <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </a>
+      <a class="card reveal" data-delay="2" href="torten.html">
+        <div class="card-img"><img src="img/torte-geburtstag.webp" alt="Festliche Torte" width="1600" height="1057" loading="lazy" decoding="async"></div>
+        <div class="card-body"><h3>Torten bestellen</h3><p>Geburtstag, Hochzeit oder einfach so – stellen Sie Ihre Wunschtorte online zusammen.</p><span class="link-arrow">Torte gestalten <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="wrap coffee-moment">
+    <div class="reveal">
+<div class="steam-cup" aria-hidden="true">
+  <svg viewBox="0 0 300 300">
+    <g class="steam"><path d="M128 120c-14-22 14-34 0-58s10-36 0-52"/><path d="M152 122c-14-22 14-34 0-58s10-36 0-52"/><path d="M176 120c-14-22 14-34 0-58s10-36 0-52"/></g>
+    <ellipse cx="150" cy="262" rx="120" ry="20" fill="var(--bg-3)"/>
+    <ellipse cx="150" cy="256" rx="104" ry="15" fill="var(--surface)" stroke="var(--line-strong)"/>
+    <path d="M72 140h156l-10 82a32 32 0 0 1-32 28h-72a32 32 0 0 1-32-28z" fill="var(--surface)" stroke="var(--line-strong)" stroke-width="1.5"/>
+    <path d="M226 160c26-4 38 10 34 28s-22 26-42 24" fill="none" stroke="var(--line-strong)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M226 160c26-4 38 10 34 28s-22 26-42 24" fill="none" stroke="var(--surface)" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="150" cy="140" rx="78" ry="14" fill="#5a321a"/>
+    <ellipse cx="150" cy="140" rx="70" ry="10.5" fill="#8a5428"/>
+    <path d="M150 148c-10-6-14-10-13-13.5 1-3 6-4 13 0 7-4 12-3 13 0s-3 7.5-13 13.5z" fill="#f2e2c6"/>
+    <path d="M84 176h132" stroke="var(--accent)" stroke-width="1.2" opacity=".5"/>
+  </svg>
+</div></div>
+    <div>
+      <p class="eyebrow reveal">Kleine Pause</p>
+      <h2 class="reveal" data-delay="1">Der Duft von frischem <em>Kaffee</em></h2>
+      <p class="lead reveal" data-delay="2">Unsere Hausmischung «Altstadt» verbindet Bohnen aus Kolumbien und Äthiopien: schokoladig, mit einem Hauch Beeren. Jeder Espresso wird frisch gemahlen und von Hand getampt.</p>
+      <div class="btn-row reveal" data-delay="3">
+        <a class="btn" href="kaffee-guide.html">Zum Kaffee-Guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost" href="karte.html#cafe">Kaffeekarte</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head center">
+      <p class="eyebrow reveal">Öffnungszeiten</p>
+      <h2 class="reveal" data-delay="1">Wir sind <em>für Sie</em> da</h2>
+    </div>
+    <div class="hours-strip reveal">
+      <div><h4>Bäckerei</h4><p>Mo–Fr 06:00–18:30<br>Sa 06:30–16:00 · So 07:30–12:00</p><p style="margin-top:10px"><span class="status-dot" data-status="baeckerei"></span></p></div>
+      <div><h4>Café</h4><p>Mo–Fr 07:00–19:00<br>Sa 08:00–18:00 · So 08:30–17:00</p><p style="margin-top:10px"><span class="status-dot" data-status="cafe"></span></p></div>
+      <div><h4>Adresse</h4><p>Backstubengasse 5<br>9999 Demostadt</p><p style="margin-top:10px"><a class="link-arrow" href="kontakt.html">Anfahrt <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="wrap">
+    <div class="section-head center">
+      <p class="eyebrow reveal">Galerie</p>
+      <h2 class="reveal" data-delay="1">Einblicke in <em>Backstube</em> &amp; Café</h2>
+    </div>
+    <div class="gallery reveal">
+      <a class="g-item" href="galerie.html" style="display:block"><img src="img/cafe-innen.webp" alt="Gemütliche Sessel und warmes Licht im Café-Salon" width="1600" height="1066" loading="lazy" decoding="async"><figcaption><span class="tag">Café</span>Gemütliche Sessel und warmes Licht im Café-Salon</figcaption></a>
+      <a class="g-item" href="galerie.html" style="display:block"><img src="img/brot.webp" alt="Frische Sauerteigbrote aus der Backstube" width="1600" height="1066" loading="lazy" decoding="async"><figcaption><span class="tag">Bäckerei</span>Frische Sauerteigbrote aus der Backstube</figcaption></a>
+      <a class="g-item" href="galerie.html" style="display:block"><img src="img/latte-art.webp" alt="Latte-Art – von Hand gegossen" width="1600" height="900" loading="lazy" decoding="async"><figcaption><span class="tag">Café</span>Latte-Art – von Hand gegossen</figcaption></a>
+      <a class="g-item" href="galerie.html" style="display:block"><img src="img/teig.webp" alt="Teig kneten am frühen Morgen" width="1200" height="800" loading="lazy" decoding="async"><figcaption><span class="tag">Bäckerei</span>Teig kneten am frühen Morgen</figcaption></a>
+      <a class="g-item" href="galerie.html" style="display:block"><img src="img/espresso-bezug.webp" alt="Espresso läuft aus dem Siebträger" width="1600" height="1204" loading="lazy" decoding="async"><figcaption><span class="tag">Café</span>Espresso läuft aus dem Siebträger</figcaption></a>
+      <a class="g-item" href="galerie.html" style="display:block"><img src="img/croissants.webp" alt="Goldene Buttergipfeli" width="1600" height="1066" loading="lazy" decoding="async"><figcaption><span class="tag">Bäckerei</span>Goldene Buttergipfeli</figcaption></a>
+    </div>
+    <p class="center" style="margin-top:30px"><a class="btn btn--ghost" href="galerie.html">Ganze Galerie ansehen</a></p>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="bg"><img src="img/cafe-boegen.webp" alt="" width="1600" height="1202" loading="lazy" decoding="async"></div>
+  <div class="wrap">
+    <p class="eyebrow reveal" style="color:#f1d9ae;justify-content:center">Wir freuen uns auf Sie</p>
+    <h2 class="reveal" data-delay="1">Reservieren Sie Ihren <em>Lieblingsplatz</em></h2>
+    <p class="lead reveal" data-delay="2" style="margin-inline:auto">Am Fenster, in der Leseecke oder auf der Terrasse – sagen Sie uns, wann Sie kommen.</p>
+    <div class="btn-row reveal" data-delay="3"><a class="btn btn--light" href="reservieren.html">Tisch reservieren <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="btn btn--outline-light" href="torten.html">Torte bestellen</a></div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <svg class="logo-stamp " viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#logo-stamp"/></svg>
+        <p>Bäckerei und Café unter einem Dach – seit 1998 in der Altstadt von Demostadt. Jeden Morgen frisch gebacken, jeden Tag mit Liebe serviert.</p>
+      </div>
+      <div>
+        <h4>Besuchen</h4>
+        <ul>
+          <li>Backstubengasse 5</li>
+          <li>9999 Demostadt</li>
+          <li><a href="tel:+41440000000">044 000 00 00</a></li>
+          <li><a href="mailto:info@democafe.ch">info@democafe.ch</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Entdecken</h4>
+        <ul>
+          <li><a href="karte.html">Karte</a></li>
+          <li><a href="kaffee-guide.html">Kaffee-Guide</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Service</h4>
+        <ul>
+          <li><a href="reservieren.html">Tisch reservieren</a></li>
+          <li><a href="torten.html">Torten bestellen</a></li>
+          <li><a href="oeffnungszeiten.html">Öffnungszeiten</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="index.html?wahl">Bereich neu wählen</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Democafé · Demostadt</span>
+      <span class="demo-note">Demo-Website eines fiktiven Betriebs – alle Angaben frei erfunden. Bild- &amp; Videoquellen: <a href="quellen.txt">quellen.txt</a></span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js" defer></script>
+<script src="js/menu-scene.js" defer></script>
+</body>
+</html>

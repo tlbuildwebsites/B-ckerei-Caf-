@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="de-CH" class="no-js" data-area="baeckerei">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Karte – Democafé</title>
+<meta name="description" content="Speisekarte von Democafé mit CHF-Preisen: Kaffee, Cocktails, Frühstück, Mittagsmenü sowie Brot, Zopf, Gebäck und Torten.">
+<meta name="theme-color" content="#f6efe3">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/playfair-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script>(function(){var d=document.documentElement;d.classList.remove('no-js');var a=null;try{a=localStorage.getItem('democafe-bereich')}catch(e){}if(a==='cafe'||a==='baeckerei'){d.setAttribute('data-area',a);if(!/[?&]wahl\b/.test(location.search))d.classList.add('no-splash')}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('rm')})();</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="logo-stamp" viewBox="0 0 200 200">
+    <circle cx="100" cy="100" r="96.5" fill="none" stroke="currentColor" stroke-width="2.6"/>
+    <circle cx="100" cy="100" r="91" fill="none" stroke="currentColor" stroke-width=".8"/>
+    <circle cx="100" cy="100" r="62" fill="none" stroke="currentColor" stroke-width=".8"/>
+    <path id="lg-top" d="M24 100A76 76 0 0 1 176 100" fill="none"/>
+    <path id="lg-bot" d="M17.5 100A82.5 82.5 0 0 0 182.5 100" fill="none"/>
+    <text font-family="Playfair Display, Georgia, serif" font-size="19" font-weight="600" letter-spacing="4.2" fill="currentColor"><textPath href="#lg-top" startOffset="50%" text-anchor="middle">DEMOCAFÉ</textPath></text>
+    <text font-family="Figtree, Segoe UI, sans-serif" font-size="9.6" font-weight="600" letter-spacing="3.6" fill="currentColor"><textPath href="#lg-bot" startOffset="50%" text-anchor="middle">BÄCKEREI · CAFÉ</textPath></text>
+    <circle cx="23" cy="104" r="2.2" fill="currentColor"/><circle cx="177" cy="104" r="2.2" fill="currentColor"/>
+    <g fill="currentColor">
+      <g transform="translate(86 96) rotate(-20)">
+        <path d="M0 40Q1.5 4 0 -34" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <ellipse cx="0" cy="-38" rx="3" ry="7.5"/>
+        <ellipse cx="-5.2" cy="-26" rx="3.3" ry="7.6" transform="rotate(-28 -5.2 -26)"/><ellipse cx="5.2" cy="-26" rx="3.3" ry="7.6" transform="rotate(28 5.2 -26)"/>
+        <ellipse cx="-5.6" cy="-13" rx="3.4" ry="7.8" transform="rotate(-28 -5.6 -13)"/><ellipse cx="5.6" cy="-13" rx="3.4" ry="7.8" transform="rotate(28 5.6 -13)"/>
+        <ellipse cx="-5.6" cy="0" rx="3.4" ry="7.8" transform="rotate(-28 -5.6 0)"/><ellipse cx="5.6" cy="0" rx="3.4" ry="7.8" transform="rotate(28 5.6 0)"/>
+        <ellipse cx="-5.2" cy="13" rx="3.2" ry="7.2" transform="rotate(-28 -5.2 13)"/><ellipse cx="5.2" cy="13" rx="3.2" ry="7.2" transform="rotate(28 5.2 13)"/>
+        <path d="M-2 -44L-4 -56M2 -44L4 -56M0 -45V-58" stroke="currentColor" stroke-width=".9" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(117 101) rotate(26)">
+        <path d="M-1.6 -18C-18 -16.5 -18 16.5 -1.6 18C-7 6.5 3.8 -6.5 -1.6 -18Z"/>
+        <path d="M1.6 -18C-3.8 -6.5 7 6.5 1.6 18C18 16.5 18 -16.5 1.6 -18Z"/>
+      </g>
+    </g>
+    <text x="100" y="146" text-anchor="middle" font-family="Figtree, Segoe UI, sans-serif" font-size="7.4" font-weight="600" letter-spacing="2.6" fill="currentColor">DEMOSTADT</text>
+  </symbol>
+</svg>
+
+<a class="sr-only" href="#inhalt">Zum Inhalt springen</a>
+<header class="site-header on-hero">
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a class="brand" href="index.html" aria-label="Democafé – zur Startseite"><svg class="logo-stamp " viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#logo-stamp"/></svg><span class="brand-name">Democafé<small>Bäckerei · Café</small></span></a>
+    <ul class="nav-links"><li><a href="index.html">Start</a></li><li><a href="ueber-uns.html">Über uns</a></li><li><a href="karte.html" aria-current="page">Karte</a></li><li><a href="kaffee-guide.html">Kaffee-Guide</a></li><li><a href="torten.html">Torten bestellen</a></li><li><a href="reservieren.html">Tisch reservieren</a></li><li><a href="galerie.html">Galerie</a></li><li><a href="oeffnungszeiten.html">Öffnungszeiten</a></li><li><a href="kontakt.html">Kontakt</a></li></ul>
+    <div class="area-switch" role="group" aria-label="Bereich wechseln">
+      <span class="pill" aria-hidden="true"></span>
+      <button type="button" data-set-area="baeckerei">Bäckerei</button>
+      <button type="button" data-set-area="cafe">Café</button>
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+<div class="mobile-menu" id="mobile-menu">
+  <ul><li><a href="index.html">Start<span aria-hidden="true">→</span></a></li><li><a href="ueber-uns.html">Über uns<span aria-hidden="true">→</span></a></li><li><a href="karte.html" aria-current="page">Karte<span aria-hidden="true">→</span></a></li><li><a href="kaffee-guide.html">Kaffee-Guide<span aria-hidden="true">→</span></a></li><li><a href="torten.html">Torten bestellen<span aria-hidden="true">→</span></a></li><li><a href="reservieren.html">Tisch reservieren<span aria-hidden="true">→</span></a></li><li><a href="galerie.html">Galerie<span aria-hidden="true">→</span></a></li><li><a href="oeffnungszeiten.html">Öffnungszeiten<span aria-hidden="true">→</span></a></li><li><a href="kontakt.html">Kontakt<span aria-hidden="true">→</span></a></li></ul>
+  <div class="mm-foot">Backstubengasse 5, 9999 Demostadt<br><a href="tel:+41440000000">044 000 00 00</a> · <a href="mailto:info@democafe.ch">info@democafe.ch</a></div>
+</div>
+<main id="inhalt">
+
+
+<section class="page-hero">
+  <div class="bg"><img src="img/fruehstueck.webp" alt="" width="1600" height="1066" decoding="async" fetchpriority="high"></div>
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Start</a> &nbsp;/&nbsp; Karte</p>
+    <p class="eyebrow">Karte</p>
+    <h1>Frisch, regional &amp; mit <em>Liebe</em> gemacht</h1>
+    <p class="lead">Alle Preise in CHF inkl. MwSt. Fragen Sie unser Team nach Allergenen – wir beraten Sie gerne.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="menu-tabs" role="group" aria-label="Karte wählen">
+      <button class="chip" type="button" data-menu-tab="cafe">Café-Karte</button>
+      <button class="chip" type="button" data-menu-tab="baeckerei">Bäckerei-Sortiment</button>
+    </div>
+
+    <div data-menu-panel="cafe">
+      <nav class="menu-jump" aria-label="Kategorien Café"><a href="#kaffee">Kaffee &amp; Heissgetränke</a><a href="#kalt">Kalte Getränke &amp; Cocktails</a><a href="#fruehstueck">Frühstück</a><a href="#mittag">Mittagsmenü</a></nav>
+      
+<div class="menu-cat" id="kaffee">
+  <div class="menu-cat-head reveal">
+    <div class="ph"><img src="img/latte-art.webp" alt="Cappuccino mit Latte-Art" width="1600" height="900" loading="lazy" decoding="async"></div>
+    <h2>Kaffee &amp; <em>Heissgetränke</em></h2>
+    <p>Hausmischung «Altstadt» oder Single Origin – frisch gemahlen für jede Tasse. Hafer-, Mandel- oder laktosefreie Milch ohne Aufpreis.</p>
+  </div>
+  <ul class="menu-list reveal" data-delay="1"><li class="menu-item"><h4>Espresso</h4><span class="pr">4.20</span><p>Kräftig, mit dichter Crema</p></li><li class="menu-item"><h4>Doppio</h4><span class="pr">5.40</span><p>Doppelter Espresso</p></li><li class="menu-item"><h4>Café Crème</h4><span class="pr">4.80</span><p>Der Schweizer Klassiker, mit Kaffeerahm</p></li><li class="menu-item"><h4>Cappuccino</h4><span class="pr">5.20</span><p>Espresso, Milch und feiner Schaum zu gleichen Teilen</p></li><li class="menu-item"><h4>Flat White</h4><span class="pr">5.80</span><p>Doppelter Ristretto mit samtiger Mikroschaum-Milch</p></li><li class="menu-item"><h4>Latte Macchiato</h4><span class="pr">5.60</span><p>Im hohen Glas, drei Schichten</p></li><li class="menu-item"><h4>Pour-over des Tages<span class="tags"><span class="tg">Spezialität</span></span></h4><span class="pr">6.50</span><p>Handaufguss mit wechselnder Single-Origin-Bohne</p></li><li class="menu-item"><h4>Chai Latte</h4><span class="pr">5.90</span><p>Hausgemachter Gewürzsirup mit Milchschaum</p></li><li class="menu-item"><h4>Heisse Schokolade</h4><span class="pr">5.50</span><p>Aus echter Schweizer Schokolade, mit Rahmhaube</p></li><li class="menu-item"><h4>Tee aus aller Welt</h4><span class="pr">4.80</span><p>Grün, schwarz, Kräuter oder Früchte – im Kännchen</p></li></ul>
+</div>
+      
+<div class="menu-cat" id="kalt">
+  <div class="menu-cat-head reveal">
+    <div class="ph"><img src="img/cocktail.webp" alt="Oranger Cocktail im Glas" width="1600" height="1066" loading="lazy" decoding="async"></div>
+    <h2>Kalte Getränke &amp; <em>Cocktails</em></h2>
+    <p>Erfrischend durch den Tag und gemütlich in den Abend – Cocktails ab 16 Uhr.</p>
+  </div>
+  <ul class="menu-list reveal" data-delay="1"><li class="menu-item"><h4>Cold Brew</h4><span class="pr">5.80</span><p>18 Stunden kalt extrahiert, auf Eis</p></li><li class="menu-item"><h4>Eiskaffee</h4><span class="pr">7.50</span><p>Mit Vanilleglace und Rahm</p></li><li class="menu-item"><h4>Hausgemachte Limonade<span class="tags"><span class="tg">vegan</span></span></h4><span class="pr">5.20</span><p>Zitrone-Minze oder Holunderblüte</p></li><li class="menu-item"><h4>Frisch gepresster Orangensaft</h4><span class="pr">6.20</span><p>3 dl</p></li><li class="menu-item"><h4>Spritz «Demostadt»<span class="tags"><span class="tg">Hausdrink</span></span></h4><span class="pr">12.50</span><p>Blutorange, Holunderblüte, Prosecco, Zitronenscheibe</p></li><li class="menu-item"><h4>Espresso Martini</h4><span class="pr">14.50</span><p>Wodka, Kaffeelikör und frischer Espresso</p></li><li class="menu-item"><h4>Gin Tonic Holunder</h4><span class="pr">13.50</span><p>Regionaler Gin, Holunderblüten-Tonic</p></li><li class="menu-item"><h4>Virgin Mojito<span class="tags"><span class="tg">alkoholfrei</span></span></h4><span class="pr">9.50</span><p>Limette, Minze, Rohrzucker, Soda</p></li></ul>
+</div>
+      
+<div class="menu-cat" id="fruehstueck">
+  <div class="menu-cat-head reveal">
+    <div class="ph"><img src="img/croissants.webp" alt="Buttergipfeli" width="1600" height="1066" loading="lazy" decoding="async"></div>
+    <h2><em>Frühstück</em></h2>
+    <p>Täglich bis 11:30 Uhr, am Wochenende bis 14 Uhr. Brot und Gebäck aus unserer eigenen Backstube.</p>
+  </div>
+  <ul class="menu-list reveal" data-delay="1"><li class="menu-item"><h4>Frühstücksgedeck «Ankommen»</h4><span class="pr">4.50</span><p>Butter, Konfitüre, Honig und die Tageszeitung</p></li><li class="menu-item"><h4>Bauernbrot &amp; Erdbeer-Konfitüre</h4><span class="pr">5.80</span><p>Zwei Scheiben Sauerteigbrot, hausgemachte Konfitüre</p></li><li class="menu-item"><h4>Buttercroissant</h4><span class="pr">3.40</span><p>Frisch aus dem Ofen</p></li><li class="menu-item"><h4>Frühstück «Klassisch»</h4><span class="pr">16.50</span><p>Gipfeli, Brot, Butter, Konfitüre, Kaffee nach Wahl und Orangensaft</p></li><li class="menu-item"><h4>Frühstück «Demostadt»</h4><span class="pr">22.50</span><p>Rührei, Bergkäse, Rohschinken, Brotkorb, Kaffee und Saft</p></li><li class="menu-item"><h4>Birchermüesli<span class="tags"><span class="tg">vegetarisch</span></span></h4><span class="pr">9.80</span><p>Nach Originalrezept, mit frischen Früchten</p></li><li class="menu-item"><h4>Avocado-Brot<span class="tags"><span class="tg">vegetarisch</span></span></h4><span class="pr">15.80</span><p>Sauerteigbrot, Avocado, pochiertes Ei, Kresse</p></li></ul>
+</div>
+      
+<div class="menu-cat" id="mittag">
+  <div class="menu-cat-head reveal">
+    <div class="ph"><img src="img/cafe-holz.webp" alt="Café mit Holztischen" width="1600" height="1066" loading="lazy" decoding="async"></div>
+    <h2><em>Mittagsmenü</em></h2>
+    <p>Montag bis Freitag von 11:30 bis 14:00 Uhr. Das Wochenmenü finden Sie auch an der Tafel im Café.</p>
+  </div>
+  <ul class="menu-list reveal" data-delay="1"><li class="menu-item"><h4>Tagessuppe mit Brot</h4><span class="pr">9.50</span><p>Saisonal, immer vegetarisch</p></li><li class="menu-item"><h4>Quiche des Tages</h4><span class="pr">18.50</span><p>Mit grünem Salat und Hausdressing</p></li><li class="menu-item"><h4>Sandwich Bergkäse &amp; Birne</h4><span class="pr">13.80</span><p>Auf Nussbrot mit Feigensenf</p></li><li class="menu-item"><h4>Saison-Salatbowl<span class="tags"><span class="tg">vegetarisch</span></span></h4><span class="pr">17.50</span><p>Getreide, geröstetes Gemüse, Kerne, Joghurt-Dressing</p></li><li class="menu-item"><h4>Älplermagronen</h4><span class="pr">21.50</span><p>Mit Röstzwiebeln und hausgemachtem Apfelmus</p></li><li class="menu-item"><h4>Mittagsmenü komplett</h4><span class="pr">24.50</span><p>Tagessuppe, Quiche des Tages und ein Mineral oder Espresso</p></li></ul>
+</div>
+    </div>
+
+    <div data-menu-panel="baeckerei" hidden>
+      <nav class="menu-jump" aria-label="Kategorien Bäckerei"><a href="#brot">Brot</a><a href="#zopf">Zopf</a><a href="#gebaeck">Gebäck &amp; Kuchen</a><a href="#torten">Torten</a></nav>
+      
+<div class="menu-cat" id="brot">
+  <div class="menu-cat-head reveal">
+    <div class="ph"><img src="img/brot.webp" alt="Frische Sauerteigbrote" width="1600" height="1066" loading="lazy" decoding="async"></div>
+    <h2><em>Brot</em></h2>
+    <p>Alle Brote mit langer Teigführung und Mehl aus der Region. Gerne schneiden wir Ihr Brot.</p>
+  </div>
+  <ul class="menu-list reveal" data-delay="1"><li class="menu-item"><h4>Bauernbrot</h4><span class="pr">5.20</span><p>Sauerteig, 500 g – unser Klassiker</p></li><li class="menu-item"><h4>Ruchbrot</h4><span class="pr">4.60</span><p>500 g, kräftige Kruste</p></li><li class="menu-item"><h4>Dinkelbrot</h4><span class="pr">5.80</span><p>500 g, mit Urdinkel</p></li><li class="menu-item"><h4>Roggenbrot</h4><span class="pr">6.20</span><p>500 g, mit Kümmel und Koriander</p></li><li class="menu-item"><h4>Nussbrot</h4><span class="pr">6.90</span><p>400 g, mit Baumnüssen</p></li><li class="menu-item"><h4>Tessinerbrot</h4><span class="pr">4.20</span><p>Zum Abbrechen, mit Olivenöl</p></li><li class="menu-item"><h4>Baguette</h4><span class="pr">3.40</span><p>Knusprig, 250 g</p></li></ul>
+</div>
+      
+<div class="menu-cat" id="zopf">
+  <div class="menu-cat-head reveal">
+    <div class="ph"><img src="img/zopf.webp" alt="Goldener Butterzopf" width="1600" height="1066" loading="lazy" decoding="async"></div>
+    <h2><em>Zopf</em></h2>
+    <p>Von Hand geflochten, mit Butter und Milch aus der Umgebung. Am Wochenende empfehlen wir eine Vorbestellung.</p>
+  </div>
+  <ul class="menu-list reveal" data-delay="1"><li class="menu-item"><h4>Butterzopf klein</h4><span class="pr">4.80</span><p>300 g</p></li><li class="menu-item"><h4>Butterzopf gross</h4><span class="pr">8.90</span><p>600 g</p></li><li class="menu-item"><h4>Dinkelzopf</h4><span class="pr">8.50</span><p>500 g</p></li><li class="menu-item"><h4>Sonntagszopf mit Mandeln<span class="tags"><span class="tg">Wochenende</span></span></h4><span class="pr">9.80</span><p>Nur am Wochenende</p></li></ul>
+</div>
+      
+<div class="menu-cat" id="gebaeck">
+  <div class="menu-cat-head reveal">
+    <div class="ph"><img src="img/gebaeck.webp" alt="Süsses Gebäck" width="1600" height="1066" loading="lazy" decoding="async"></div>
+    <h2>Gebäck &amp; <em>Kuchen</em></h2>
+    <p>Süss oder salzig – frisch aus Backstube und Konditorei.</p>
+  </div>
+  <ul class="menu-list reveal" data-delay="1"><li class="menu-item"><h4>Buttergipfeli</h4><span class="pr">1.90</span><p>Mit Schweizer Butter</p></li><li class="menu-item"><h4>Schoggigipfeli</h4><span class="pr">2.60</span></li><li class="menu-item"><h4>Nussgipfel</h4><span class="pr">3.40</span><p>Mit Haselnussfüllung</p></li><li class="menu-item"><h4>Zimtschnecke</h4><span class="pr">3.80</span><p>Mit Frischkäse-Glasur</p></li><li class="menu-item"><h4>Rüeblitorte</h4><span class="pr">5.50</span><p>Stück</p></li><li class="menu-item"><h4>Linzertorte</h4><span class="pr">4.90</span><p>Stück</p></li><li class="menu-item"><h4>Cremeschnitte</h4><span class="pr">5.20</span></li><li class="menu-item"><h4>Apfelstrudel</h4><span class="pr">5.20</span><p>Stück, auf Wunsch mit Vanillesauce</p></li></ul>
+</div>
+      
+<div class="menu-cat" id="torten">
+  <div class="menu-cat-head reveal">
+    <div class="ph"><img src="img/torte-schoko.webp" alt="Schokoladentorte" width="1600" height="1066" loading="lazy" decoding="async"></div>
+    <h2><em>Torten</em></h2>
+    <p>Ganze Torten für 6–8 Personen. Individuelle Torten bestellen Sie bequem über unser Formular.</p>
+  </div>
+  <ul class="menu-list reveal" data-delay="1"><li class="menu-item"><h4>Schwarzwälder Torte</h4><span class="pr">48.–</span></li><li class="menu-item"><h4>Erdbeer-Rahmtorte</h4><span class="pr">52.–</span><p>Saisonal</p></li><li class="menu-item"><h4>Schokoladentorte</h4><span class="pr">49.–</span></li><li class="menu-item"><h4>Zuger Kirschtorte</h4><span class="pr">54.–</span></li><li class="menu-item"><h4>Fruchttorte</h4><span class="pr">46.–</span><p>Mit frischen Beeren</p></li><li class="menu-item"><h4>Hochzeitstorte</h4><span class="pr">ab 9.50</span><p>Pro Person, nach Absprache</p></li></ul>
+</div>
+      <p class="center" style="margin-top:20px"><a class="btn" href="torten.html">Wunschtorte gestalten <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+    </div>
+    <p class="menu-note">Demo-Karte eines fiktiven Betriebs. Herkunft Fleisch: Schweiz. Alle Preise in CHF inkl. 8,1 % MwSt.</p>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <svg class="logo-stamp " viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#logo-stamp"/></svg>
+        <p>Bäckerei und Café unter einem Dach – seit 1998 in der Altstadt von Demostadt. Jeden Morgen frisch gebacken, jeden Tag mit Liebe serviert.</p>
+      </div>
+      <div>
+        <h4>Besuchen</h4>
+        <ul>
+          <li>Backstubengasse 5</li>
+          <li>9999 Demostadt</li>
+          <li><a href="tel:+41440000000">044 000 00 00</a></li>
+          <li><a href="mailto:info@democafe.ch">info@democafe.ch</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Entdecken</h4>
+        <ul>
+          <li><a href="karte.html">Karte</a></li>
+          <li><a href="kaffee-guide.html">Kaffee-Guide</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Service</h4>
+        <ul>
+          <li><a href="reservieren.html">Tisch reservieren</a></li>
+          <li><a href="torten.html">Torten bestellen</a></li>
+          <li><a href="oeffnungszeiten.html">Öffnungszeiten</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="index.html?wahl">Bereich neu wählen</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Democafé · Demostadt</span>
+      <span class="demo-note">Demo-Website eines fiktiven Betriebs – alle Angaben frei erfunden. Bild- &amp; Videoquellen: <a href="quellen.txt">quellen.txt</a></span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js" defer></script>
+
+</body>
+</html>

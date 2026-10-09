@@ -1,0 +1,163 @@
+QUELLEN – Bilder, Videos, Schriften
+Demo-Website «Democafé» (fiktiver Betrieb in Demostadt)
+============================================================
+
+Alle Fotos und Videos stammen von Pexels (https://www.pexels.com) und stehen unter der
+Pexels-Lizenz (https://www.pexels.com/license/): kostenlos nutzbar, keine Namensnennung nötig.
+Die Urheberinnen und Urheber werden hier trotzdem genannt.
+Fotos wurden verkleinert und ins WebP-Format konvertiert. Es wurden keine Bilder echter
+Betriebe mit sichtbaren Firmennamen oder Logos verwendet.
+
+VIDEOS
+------
+Die Hero-Videos sind Zusammenschnitte mehrerer kurzer Clips mit Überblendung
+(je ca. 20–24 s, 1280×720 und 640×360, ohne Ton, je unter 4 MB).
+
+video/hero-cafe.mp4 (+ hero-cafe-sm.mp4, hero-cafe-poster.webp)
+  Clip: Still shot of cafe with fans  – von Media Hopper Studio
+        https://www.pexels.com/video/still-shot-of-cafe-with-fans-17670372/
+  Clip: Cozy Empty Cafe Interior with Vintage Decor – von Oleksandr Plakhota
+        https://www.pexels.com/video/cozy-empty-cafe-interior-with-vintage-decor-30574534/
+  Clip: Close Up Shot of an Espresso Machine – von K
+        https://www.pexels.com/video/close-up-shot-of-an-espresso-machine-6769788/
+  Clip: Barista Hands Preparing Coffee – von Kampus Production
+        https://www.pexels.com/video/barista-hands-preparing-coffee-6683371/
+  Clip: Person Pouring Milk in a Cup – von Rachel Claire
+        https://www.pexels.com/video/person-pouring-milk-in-a-cup-8855727/
+  Clip: Modern Cafe Interior with Large Window View – von vdk musik
+        https://www.pexels.com/video/modern-cafe-interior-with-large-window-view-37641753/
+  Clip: Coffee Cups with Latte Art – von Tim Douglas
+        https://www.pexels.com/video/coffee-cups-with-latte-art-6201669/
+
+video/hero-baeckerei.mp4 (+ hero-baeckerei-sm.mp4, hero-baeckerei-poster.webp)
+  Clip: A Baker Kneading the Dough – von ROMAN ODINTSOV
+        https://www.pexels.com/video/a-baker-kneading-the-dough-8190714/
+  Clip: A Person Designing a Dough – von Andy Barbour
+        https://www.pexels.com/video/a-person-designing-a-dough-6950022/
+  Clip: Wood-Fired Bakery: Artisan Bread Baking – von Yasin Onuş
+        https://www.pexels.com/video/wood-fired-bakery-artisan-bread-baking-37294912/
+  Clip: A Freshly Baked Breads – von K
+        https://www.pexels.com/video/a-freshly-baked-breads-7405929/
+  Clip: Close-up Video of a Bread – von Andy Barbour
+        https://www.pexels.com/video/close-up-video-of-a-bread-6950251/
+  Clip: Homemade Breads – von Andy Barbour
+        https://www.pexels.com/video/homemade-breads-6950114/
+
+FOTOS
+-----
+img/auslage.webp
+  Rustic Bread Display on Wooden Shelves – von wal_ 172619
+  https://www.pexels.com/photo/rustic-bread-display-on-wooden-shelves-35993723/
+
+img/baecker.webp
+  Croissants Dough on Baking Tray – von Felicity Tai
+  https://www.pexels.com/photo/croissants-dough-on-baking-tray-7965947/
+
+img/barista-milch.webp
+  Crop young woman whipping milk using professional machine in coffee shop – von Ketut Subiyanto
+  https://www.pexels.com/photo/crop-young-woman-whipping-milk-using-professional-machine-in-coffee-shop-4349954/
+
+img/barista-tamper.webp
+  Barista Preparing Espresso in Tokyo Café – von Gu Ko
+  https://www.pexels.com/photo/barista-preparing-espresso-in-tokyo-cafe-31767942/
+
+img/brot.webp
+  Brown Breads on Wooden Table – von Lauren Heaton
+  https://www.pexels.com/photo/brown-breads-on-wooden-table-8633662/
+
+img/cafe-boegen.webp
+  Cozy Cafe Interior with Warm Lighting – von Little Prince Photography
+  https://www.pexels.com/photo/cozy-cafe-interior-with-warm-lighting-39047893/
+
+img/cafe-buecher.webp
+  Coffee Table Beside Shelves of Books – von Emre Can Acer
+  https://www.pexels.com/photo/coffee-table-beside-shelves-of-books-2079452/
+
+img/cafe-holz.webp
+  Cozy Indoor Café with Wooden Interior Decor – von zona .exe123ph
+  https://www.pexels.com/photo/cozy-indoor-cafe-with-wooden-interior-decor-34104248/
+
+img/cafe-innen.webp
+  Modern Cozy Indoor Cafe with Stylish Decor – von UMUT   🆁🅰🆆
+  https://www.pexels.com/photo/modern-cozy-indoor-cafe-with-stylish-decor-36484101/
+
+img/cocktail.webp
+  Vibrant Cocktail Glass on Table with Orange Glow – von Szymon Shields
+  https://www.pexels.com/photo/vibrant-cocktail-glass-on-table-with-orange-glow-36189465/
+
+img/croissants.webp
+  Close-Up Shot of Croissants  – von Claudio Segovia
+  https://www.pexels.com/photo/close-up-shot-of-croissants-6202224/
+
+img/espresso-bezug.webp
+  Espresso being brewed at a Tokyo coffee shop – von Gu Ko
+  https://www.pexels.com/photo/espresso-being-brewed-at-a-tokyo-coffee-shop-31872060/
+
+img/espresso-maschine.webp
+  Close-Up of Barista Operating Espresso Machine – von Gu Ko
+  https://www.pexels.com/photo/close-up-of-barista-operating-espresso-machine-31872066/
+
+img/fruehstueck.webp
+  Close-Up Shot Two Breads on White Ceramic Plate – von Amanda Hemphill
+  https://www.pexels.com/photo/close-up-shot-two-breads-on-white-ceramic-plate-7440404/
+
+img/gebaeck.webp
+  Croissants on Clear Glass Display Counter – von Fleur Bijl
+  https://www.pexels.com/photo/croissants-on-clear-glass-display-counter-12660003/
+
+img/holztisch.webp
+  Brown Wooden Surface in Close Up Photography – von Engin Akyurt
+  https://www.pexels.com/photo/brown-wooden-surface-in-close-up-photography-9996341/
+
+img/latte-art.webp
+  Latte Art Being Created By Barista in Tokyo Cafe – von Gu Ko
+  https://www.pexels.com/photo/latte-art-being-created-by-barista-in-tokyo-cafe-31767945/
+
+img/plantage.webp
+  Ripening coffee cherries growing on twig – von Michael Burrows
+  https://www.pexels.com/photo/ripening-coffee-cherries-growing-on-twig-7125444/
+
+img/pour-over.webp
+  Artisan Pour-over Coffee Brewing in Tokyo Café – von Gu Ko
+  https://www.pexels.com/photo/artisan-pour-over-coffee-brewing-in-tokyo-cafe-31986824/
+
+img/teig.webp
+  Person Kneading a Dough – von Andy Barbour
+  https://www.pexels.com/photo/person-kneading-a-dough-6963719/
+
+img/torte-frucht.webp
+  Hand Placing Fruit on Cake – von Anete Lusina
+  https://www.pexels.com/photo/hand-placing-fruit-on-cake-18613262/
+
+img/torte-geburtstag.webp
+  Birthday Cake on Plate in Hands – von Adrianna CA
+  https://www.pexels.com/photo/birthday-cake-on-plate-in-hands-23384637/
+
+img/torte-hochzeit.webp
+  Elegant White Cake with Floral Decoration – von Bruno Mattos
+  https://www.pexels.com/photo/elegant-white-cake-with-floral-decoration-30233124/
+
+img/torte-schoko.webp
+  Yummy chocolate cake served with blackberry – von Alex Dugquem
+  https://www.pexels.com/photo/yummy-chocolate-cake-served-with-blackberry-4329844/
+
+img/zopf.webp
+  A Brown Bread on a Woven Mat on the Tray – von Evgeniy Alekseyev
+  https://www.pexels.com/photo/a-brown-bread-on-a-woven-mat-on-the-tray-7333069/
+
+SELBST ERSTELLT
+---------------
+img/favicon.svg, Logo (inline SVG «Democafé»-Stempel): selbst gestaltet
+img/textur-leinen.png: selbst generierte Leinen-/Papierstruktur
+Scroll-Szene «Ihr Menü entsteht» (Teller, Brot, Croissant, Tasse, Cocktail, Serviette): selbst gezeichnete SVG-Illustrationen in js/menu-scene.js
+Kaffee-Schichten, Torten-Vorschau, Lageskizze, Dampf-Tasse: selbst gezeichnete SVGs
+
+SCHRIFTEN (lokal eingebunden)
+-----------------------------
+Playfair Display – Claus Eggers Sørensen, SIL Open Font License 1.1 (fonts/OFL-playfair-display.txt)
+Figtree – Erik Kennedy, SIL Open Font License 1.1 (fonts/OFL-figtree.txt)
+Bezogen über Fontsource (https://fontsource.org)
+
+HINWEIS
+-------
+Democafé, Demostadt, alle Personen, Adressen, Telefonnummern und Preise sind frei erfunden.

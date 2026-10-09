@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="de-CH" class="no-js" data-area="baeckerei">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaffee-Guide – Democafé</title>
+<meta name="description" content="Kaffee-Guide von Democafé: Espresso, Cappuccino, Flat White, Latte Macchiato und Cold Brew im Schichtaufbau, Herkunft der Bohnen und Röstgrade.">
+<meta name="theme-color" content="#f6efe3">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/playfair-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script>(function(){var d=document.documentElement;d.classList.remove('no-js');var a=null;try{a=localStorage.getItem('democafe-bereich')}catch(e){}if(a==='cafe'||a==='baeckerei'){d.setAttribute('data-area',a);if(!/[?&]wahl\b/.test(location.search))d.classList.add('no-splash')}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('rm')})();</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="logo-stamp" viewBox="0 0 200 200">
+    <circle cx="100" cy="100" r="96.5" fill="none" stroke="currentColor" stroke-width="2.6"/>
+    <circle cx="100" cy="100" r="91" fill="none" stroke="currentColor" stroke-width=".8"/>
+    <circle cx="100" cy="100" r="62" fill="none" stroke="currentColor" stroke-width=".8"/>
+    <path id="lg-top" d="M24 100A76 76 0 0 1 176 100" fill="none"/>
+    <path id="lg-bot" d="M17.5 100A82.5 82.5 0 0 0 182.5 100" fill="none"/>
+    <text font-family="Playfair Display, Georgia, serif" font-size="19" font-weight="600" letter-spacing="4.2" fill="currentColor"><textPath href="#lg-top" startOffset="50%" text-anchor="middle">DEMOCAFÉ</textPath></text>
+    <text font-family="Figtree, Segoe UI, sans-serif" font-size="9.6" font-weight="600" letter-spacing="3.6" fill="currentColor"><textPath href="#lg-bot" startOffset="50%" text-anchor="middle">BÄCKEREI · CAFÉ</textPath></text>
+    <circle cx="23" cy="104" r="2.2" fill="currentColor"/><circle cx="177" cy="104" r="2.2" fill="currentColor"/>
+    <g fill="currentColor">
+      <g transform="translate(86 96) rotate(-20)">
+        <path d="M0 40Q1.5 4 0 -34" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <ellipse cx="0" cy="-38" rx="3" ry="7.5"/>
+        <ellipse cx="-5.2" cy="-26" rx="3.3" ry="7.6" transform="rotate(-28 -5.2 -26)"/><ellipse cx="5.2" cy="-26" rx="3.3" ry="7.6" transform="rotate(28 5.2 -26)"/>
+        <ellipse cx="-5.6" cy="-13" rx="3.4" ry="7.8" transform="rotate(-28 -5.6 -13)"/><ellipse cx="5.6" cy="-13" rx="3.4" ry="7.8" transform="rotate(28 5.6 -13)"/>
+        <ellipse cx="-5.6" cy="0" rx="3.4" ry="7.8" transform="rotate(-28 -5.6 0)"/><ellipse cx="5.6" cy="0" rx="3.4" ry="7.8" transform="rotate(28 5.6 0)"/>
+        <ellipse cx="-5.2" cy="13" rx="3.2" ry="7.2" transform="rotate(-28 -5.2 13)"/><ellipse cx="5.2" cy="13" rx="3.2" ry="7.2" transform="rotate(28 5.2 13)"/>
+        <path d="M-2 -44L-4 -56M2 -44L4 -56M0 -45V-58" stroke="currentColor" stroke-width=".9" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(117 101) rotate(26)">
+        <path d="M-1.6 -18C-18 -16.5 -18 16.5 -1.6 18C-7 6.5 3.8 -6.5 -1.6 -18Z"/>
+        <path d="M1.6 -18C-3.8 -6.5 7 6.5 1.6 18C18 16.5 18 -16.5 1.6 -18Z"/>
+      </g>
+    </g>
+    <text x="100" y="146" text-anchor="middle" font-family="Figtree, Segoe UI, sans-serif" font-size="7.4" font-weight="600" letter-spacing="2.6" fill="currentColor">DEMOSTADT</text>
+  </symbol>
+</svg>
+
+<a class="sr-only" href="#inhalt">Zum Inhalt springen</a>
+<header class="site-header on-hero">
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a class="brand" href="index.html" aria-label="Democafé – zur Startseite"><svg class="logo-stamp " viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#logo-stamp"/></svg><span class="brand-name">Democafé<small>Bäckerei · Café</small></span></a>
+    <ul class="nav-links"><li><a href="index.html">Start</a></li><li><a href="ueber-uns.html">Über uns</a></li><li><a href="karte.html">Karte</a></li><li><a href="kaffee-guide.html" aria-current="page">Kaffee-Guide</a></li><li><a href="torten.html">Torten bestellen</a></li><li><a href="reservieren.html">Tisch reservieren</a></li><li><a href="galerie.html">Galerie</a></li><li><a href="oeffnungszeiten.html">Öffnungszeiten</a></li><li><a href="kontakt.html">Kontakt</a></li></ul>
+    <div class="area-switch" role="group" aria-label="Bereich wechseln">
+      <span class="pill" aria-hidden="true"></span>
+      <button type="button" data-set-area="baeckerei">Bäckerei</button>
+      <button type="button" data-set-area="cafe">Café</button>
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+<div class="mobile-menu" id="mobile-menu">
+  <ul><li><a href="index.html">Start<span aria-hidden="true">→</span></a></li><li><a href="ueber-uns.html">Über uns<span aria-hidden="true">→</span></a></li><li><a href="karte.html">Karte<span aria-hidden="true">→</span></a></li><li><a href="kaffee-guide.html" aria-current="page">Kaffee-Guide<span aria-hidden="true">→</span></a></li><li><a href="torten.html">Torten bestellen<span aria-hidden="true">→</span></a></li><li><a href="reservieren.html">Tisch reservieren<span aria-hidden="true">→</span></a></li><li><a href="galerie.html">Galerie<span aria-hidden="true">→</span></a></li><li><a href="oeffnungszeiten.html">Öffnungszeiten<span aria-hidden="true">→</span></a></li><li><a href="kontakt.html">Kontakt<span aria-hidden="true">→</span></a></li></ul>
+  <div class="mm-foot">Backstubengasse 5, 9999 Demostadt<br><a href="tel:+41440000000">044 000 00 00</a> · <a href="mailto:info@democafe.ch">info@democafe.ch</a></div>
+</div>
+<main id="inhalt">
+
+
+<section class="page-hero">
+  <div class="bg"><img src="img/espresso-maschine.webp" alt="" width="1600" height="1145" decoding="async" fetchpriority="high"></div>
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Start</a> &nbsp;/&nbsp; Kaffee-Guide</p>
+    <p class="eyebrow">Kaffee-Guide</p>
+    <h1>Was steckt in Ihrer <em>Tasse</em>?</h1>
+    <p class="lead">Vom kräftigen Espresso bis zum samtigen Flat White – so unterscheiden sich unsere Klassiker, und woher die Bohnen kommen.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head center">
+      <p class="eyebrow reveal">Kaffeesorten</p>
+      <h2 class="reveal" data-delay="1">Schicht für <em>Schicht</em></h2>
+      <p class="lead reveal" data-delay="2">Die gleiche Bohne, ganz verschiedene Getränke: Entscheidend sind das Verhältnis von Espresso, Milch und Schaum.</p>
+    </div>
+    <div class="brew-grid">
+      <article class="brew reveal"><svg viewBox="0 0 160 200" role="img" aria-label="Schichtaufbau espresso">
+    <defs><clipPath id="clip-espresso"><path d="M52 112h56v34a20 20 0 0 1-20 20h-16a20 20 0 0 1-20-20z"/></clipPath></defs>
+    <ellipse cx="80" cy="172" rx="50" ry="7" fill="var(--bg-3)"/>
+    <path d="M108 122c14 0 16 22 0 22" fill="none" stroke="var(--line-strong)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M52 112h56v34a20 20 0 0 1-20 20h-16a20 20 0 0 1-20-20z" fill="var(--bg)" />
+    <g clip-path="url(#clip-espresso)"><rect class="layer-fill l1" x="48" y="127.2" width="64" height="39.4" fill="#3b1f10"/><rect class="layer-fill l2" x="48" y="119.3" width="64" height="8.5" fill="#c58a4c"/></g>
+    <path d="M52 112h56v34a20 20 0 0 1-20 20h-16a20 20 0 0 1-20-20z" fill="none" stroke="var(--text)" stroke-opacity=".55" stroke-width="2"/>
+    
+  </svg><h3>Espresso</h3><p>25 ml, 25 Sekunden, 9 bar – das Herz jedes Kaffees.</p><ul class="layers"><li><i style="background:#c58a4c"></i>Crema</li><li><i style="background:#3b1f10"></i>Espresso</li></ul></article>
+      <article class="brew reveal" data-delay="1"><svg viewBox="0 0 160 200" role="img" aria-label="Schichtaufbau cappuccino">
+    <defs><clipPath id="clip-cappuccino"><path d="M30 78h100v58a36 36 0 0 1-36 36H66a36 36 0 0 1-36-36z"/></clipPath></defs>
+    <ellipse cx="80" cy="178" rx="66" ry="8" fill="var(--bg-3)"/>
+    <path d="M130 96c24 0 26 40 0 40" fill="none" stroke="var(--line-strong)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M30 78h100v58a36 36 0 0 1-36 36H66a36 36 0 0 1-36-36z" fill="var(--bg)" />
+    <g clip-path="url(#clip-cappuccino)"><rect class="layer-fill l1" x="26" y="146.1" width="108" height="26.5" fill="#3b1f10"/><rect class="layer-fill l2" x="26" y="120.1" width="108" height="26.5" fill="#efe0c4"/><rect class="layer-fill l3" x="26" y="92.4" width="108" height="28.3" fill="#fbf5ea"/></g>
+    <path d="M30 78h100v58a36 36 0 0 1-36 36H66a36 36 0 0 1-36-36z" fill="none" stroke="var(--text)" stroke-opacity=".55" stroke-width="2"/>
+    
+  </svg><h3>Cappuccino</h3><p>Ein Drittel Espresso, ein Drittel Milch, ein Drittel Schaum.</p><ul class="layers"><li><i style="background:#fbf5ea"></i>Milchschaum</li><li><i style="background:#efe0c4"></i>Heisse Milch</li><li><i style="background:#3b1f10"></i>Espresso</li></ul></article>
+      <article class="brew reveal" data-delay="2"><svg viewBox="0 0 160 200" role="img" aria-label="Schichtaufbau flatwhite">
+    <defs><clipPath id="clip-flatwhite"><path d="M30 78h100v58a36 36 0 0 1-36 36H66a36 36 0 0 1-36-36z"/></clipPath></defs>
+    <ellipse cx="80" cy="178" rx="66" ry="8" fill="var(--bg-3)"/>
+    <path d="M130 96c24 0 26 40 0 40" fill="none" stroke="var(--line-strong)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M30 78h100v58a36 36 0 0 1-36 36H66a36 36 0 0 1-36-36z" fill="var(--bg)" />
+    <g clip-path="url(#clip-flatwhite)"><rect class="layer-fill l1" x="26" y="137.4" width="108" height="35.2" fill="#3b1f10"/><rect class="layer-fill l2" x="26" y="94.2" width="108" height="43.8" fill="#efe0c4"/><rect class="layer-fill l3" x="26" y="89.8" width="108" height="4.9" fill="#fbf5ea"/></g>
+    <path d="M30 78h100v58a36 36 0 0 1-36 36H66a36 36 0 0 1-36-36z" fill="none" stroke="var(--text)" stroke-opacity=".55" stroke-width="2"/>
+    
+  </svg><h3>Flat White</h3><p>Doppelter Ristretto, wenig, aber feinporiger Mikroschaum.</p><ul class="layers"><li><i style="background:#fbf5ea"></i>Mikroschaum</li><li><i style="background:#efe0c4"></i>Samtige Milch</li><li><i style="background:#3b1f10"></i>Doppelter Ristretto</li></ul></article>
+      <article class="brew reveal" data-delay="3"><svg viewBox="0 0 160 200" role="img" aria-label="Schichtaufbau lattemacchiato">
+    <defs><clipPath id="clip-lattemacchiato"><path d="M46 20h68l-6 152a10 10 0 0 1-10 10H62a10 10 0 0 1-10-10z"/></clipPath></defs>
+    <ellipse cx="80" cy="188" rx="40" ry="5" fill="var(--bg-3)"/>
+    
+    <path d="M46 20h68l-6 152a10 10 0 0 1-10 10H62a10 10 0 0 1-10-10z" fill="var(--bg)" />
+    <g clip-path="url(#clip-lattemacchiato)"><rect class="layer-fill l1" x="36" y="107.5" width="88" height="75.1" fill="#efe0c4"/><rect class="layer-fill l2" x="36" y="86.6" width="88" height="21.5" fill="#8a5a34"/><rect class="layer-fill l3" x="36" y="44.9" width="88" height="42.3" fill="#fbf5ea"/></g>
+    <path d="M46 20h68l-6 152a10 10 0 0 1-10 10H62a10 10 0 0 1-10-10z" fill="none" stroke="var(--text)" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M56 30l-4 130" stroke="#fff" stroke-opacity=".35" stroke-width="3" stroke-linecap="round"/>
+  </svg><h3>Latte Macchiato</h3><p>Der Espresso wird zuletzt eingegossen – so entstehen drei Schichten.</p><ul class="layers"><li><i style="background:#fbf5ea"></i>Milchschaum</li><li><i style="background:#8a5a34"></i>Espresso</li><li><i style="background:#efe0c4"></i>Heisse Milch</li></ul></article>
+      <article class="brew reveal" data-delay="4"><svg viewBox="0 0 160 200" role="img" aria-label="Schichtaufbau coldbrew">
+    <defs><clipPath id="clip-coldbrew"><path d="M46 20h68l-6 152a10 10 0 0 1-10 10H62a10 10 0 0 1-10-10z"/></clipPath></defs>
+    <ellipse cx="80" cy="188" rx="40" ry="5" fill="var(--bg-3)"/>
+    
+    <path d="M46 20h68l-6 152a10 10 0 0 1-10 10H62a10 10 0 0 1-10-10z" fill="var(--bg)" />
+    <g clip-path="url(#clip-coldbrew)"><rect class="layer-fill l1" x="36" y="77.7" width="88" height="104.9" fill="#4b2716"/><rect class="layer-fill l2" x="36" y="62.8" width="88" height="15.5" fill="#c79b6c"/><g class="layer-fill l2"><rect x="58" y="70" width="22" height="22" rx="4" fill="rgba(255,255,255,.45)" stroke="#fff" stroke-opacity=".7" transform="rotate(12 69 81)"/><rect x="82" y="96" width="22" height="22" rx="4" fill="rgba(255,255,255,.4)" stroke="#fff" stroke-opacity=".7" transform="rotate(-18 93 107)"/><rect x="60" y="122" width="20" height="20" rx="4" fill="rgba(255,255,255,.35)" stroke="#fff" stroke-opacity=".7" transform="rotate(30 70 132)"/></g></g>
+    <path d="M46 20h68l-6 152a10 10 0 0 1-10 10H62a10 10 0 0 1-10-10z" fill="none" stroke="var(--text)" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M56 30l-4 130" stroke="#fff" stroke-opacity=".35" stroke-width="3" stroke-linecap="round"/>
+  </svg><h3>Cold Brew</h3><p>18 Stunden kalt extrahiert: mild, schokoladig, wenig Säure.</p><ul class="layers"><li><i style="background:#c79b6c"></i>Optional: Milch</li><li><i style="background:#4b2716"></i>Cold Brew</li><li><i style="background:#dfe9ee"></i>Eiswürfel</li></ul></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="wrap split">
+    <div class="reveal">
+      <figure style="margin:0;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)"><img src="img/plantage.webp" alt="Kaffeekirschen am Strauch" width="1600" height="1066" loading="lazy" decoding="async"></figure>
+    </div>
+    <div>
+      <p class="eyebrow reveal">Herkunft</p>
+      <h2 class="reveal" data-delay="1">Von der Kirsche bis in die <em>Tasse</em></h2>
+      <p class="lead reveal" data-delay="2">Kaffee wächst im «Kaffeegürtel» rund um den Äquator. Höhe, Klima und Verarbeitung prägen den Geschmack – ähnlich wie beim Wein.</p>
+      <p class="reveal" data-delay="3">Wir kaufen unsere Bohnen über eine kleine Rösterei, die die Farmen persönlich kennt. So wissen wir, woher jede Bohne kommt und dass sie fair bezahlt wird.</p>
+    </div>
+  </div>
+  <div class="wrap" style="margin-top:60px">
+    <div class="origins">
+      <div class="origin reveal"><span class="region">Afrika</span><h3>Äthiopien</h3><p>Yirgacheffe, 1900–2200 m. Die Heimat des Kaffees – blumig und fruchtig.</p><div class="notes"><span>Jasmin</span><span>Bergamotte</span><span>Zitrus</span></div><div class="meter"><div><span>Säure</span><b style="--v:85%"></b></div><div><span>Körper</span><b style="--v:40%"></b></div></div></div>
+      <div class="origin reveal" data-delay="1"><span class="region">Südamerika</span><h3>Kolumbien</h3><p>Huila, 1600–1900 m. Ausgewogen und süss – Basis unserer Hausmischung.</p><div class="notes"><span>Karamell</span><span>Roter Apfel</span><span>Haselnuss</span></div><div class="meter"><div><span>Säure</span><b style="--v:60%"></b></div><div><span>Körper</span><b style="--v:65%"></b></div></div></div>
+      <div class="origin reveal" data-delay="2"><span class="region">Südamerika</span><h3>Brasilien</h3><p>Cerrado Mineiro, 1000–1200 m. Nussig, schokoladig, wenig Säure.</p><div class="notes"><span>Schokolade</span><span>Erdnuss</span><span>Kakao</span></div><div class="meter"><div><span>Säure</span><b style="--v:30%"></b></div><div><span>Körper</span><b style="--v:80%"></b></div></div></div>
+      <div class="origin reveal" data-delay="3"><span class="region">Mittelamerika</span><h3>Guatemala</h3><p>Antigua, 1500–1700 m. Vulkanböden geben Würze und Tiefe.</p><div class="notes"><span>Kakao</span><span>Gewürze</span><span>Orangenzeste</span></div><div class="meter"><div><span>Säure</span><b style="--v:55%"></b></div><div><span>Körper</span><b style="--v:70%"></b></div></div></div>
+      <div class="origin reveal" data-delay="4"><span class="region">Asien</span><h3>Indonesien</h3><p>Sumatra, 1100–1500 m. Erdig und vollmundig, ideal für Espresso.</p><div class="notes"><span>Zedernholz</span><span>Dunkle Schokolade</span><span>Gewürze</span></div><div class="meter"><div><span>Säure</span><b style="--v:20%"></b></div><div><span>Körper</span><b style="--v:92%"></b></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head center">
+      <p class="eyebrow reveal">Röstgrade</p>
+      <h2 class="reveal" data-delay="1">Hell, mittel oder <em>dunkel</em>?</h2>
+      <p class="lead reveal" data-delay="2">Beim Rösten entstehen über 800 Aromastoffe. Je länger und heisser geröstet wird, desto weniger Säure und desto mehr Röstaromen.</p>
+    </div>
+    <div class="roast reveal">
+      <div><div class="beans"><svg viewBox="0 0 34 44" aria-hidden="true"><ellipse cx="17" cy="22" rx="14" ry="20" fill="#b88550"/><path d="M17 3c-6 8 6 18 0 38" stroke="rgba(0,0,0,.35)" stroke-width="2.4" fill="none"/></svg><svg viewBox="0 0 34 44" aria-hidden="true"><ellipse cx="17" cy="22" rx="14" ry="20" fill="#a87442"/><path d="M17 3c-6 8 6 18 0 38" stroke="rgba(0,0,0,.35)" stroke-width="2.4" fill="none"/></svg><svg viewBox="0 0 34 44" aria-hidden="true"><ellipse cx="17" cy="22" rx="14" ry="20" fill="#c09060"/><path d="M17 3c-6 8 6 18 0 38" stroke="rgba(0,0,0,.35)" stroke-width="2.4" fill="none"/></svg></div><h3>Helle Röstung</h3><p class="muted">Fruchtig, blumig, lebendige Säure. Ideal für Filterkaffee und Pour-over.</p><p><strong>Bei uns:</strong> Pour-over des Tages</p></div>
+      <div><div class="beans"><svg viewBox="0 0 34 44" aria-hidden="true"><ellipse cx="17" cy="22" rx="14" ry="20" fill="#7a4a26"/><path d="M17 3c-6 8 6 18 0 38" stroke="rgba(0,0,0,.35)" stroke-width="2.4" fill="none"/></svg><svg viewBox="0 0 34 44" aria-hidden="true"><ellipse cx="17" cy="22" rx="14" ry="20" fill="#6d4020"/><path d="M17 3c-6 8 6 18 0 38" stroke="rgba(0,0,0,.35)" stroke-width="2.4" fill="none"/></svg><svg viewBox="0 0 34 44" aria-hidden="true"><ellipse cx="17" cy="22" rx="14" ry="20" fill="#835230"/><path d="M17 3c-6 8 6 18 0 38" stroke="rgba(0,0,0,.35)" stroke-width="2.4" fill="none"/></svg></div><h3>Mittlere Röstung</h3><p class="muted">Ausgewogen, süss, Karamell und Nuss. Perfekt für Milchgetränke.</p><p><strong>Bei uns:</strong> Hausmischung «Altstadt»</p></div>
+      <div><div class="beans"><svg viewBox="0 0 34 44" aria-hidden="true"><ellipse cx="17" cy="22" rx="14" ry="20" fill="#3a2012"/><path d="M17 3c-6 8 6 18 0 38" stroke="rgba(0,0,0,.35)" stroke-width="2.4" fill="none"/></svg><svg viewBox="0 0 34 44" aria-hidden="true"><ellipse cx="17" cy="22" rx="14" ry="20" fill="#2e180c"/><path d="M17 3c-6 8 6 18 0 38" stroke="rgba(0,0,0,.35)" stroke-width="2.4" fill="none"/></svg><svg viewBox="0 0 34 44" aria-hidden="true"><ellipse cx="17" cy="22" rx="14" ry="20" fill="#442616"/><path d="M17 3c-6 8 6 18 0 38" stroke="rgba(0,0,0,.35)" stroke-width="2.4" fill="none"/></svg></div><h3>Dunkle Röstung</h3><p class="muted">Kräftig, vollmundig, Bitterschokolade. Klassisch italienischer Espresso.</p><p><strong>Bei uns:</strong> Espresso «Notte»</p></div>
+    </div>
+    <div class="roast-bar reveal" aria-hidden="true"></div>
+    <div class="roast-scale reveal" aria-hidden="true"><span>Hell · ca. 200 °C</span><span>Mittel · ca. 215 °C</span><span>Dunkel · ca. 230 °C</span></div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="wrap coffee-moment">
+    <div class="reveal">
+<div class="steam-cup" aria-hidden="true">
+  <svg viewBox="0 0 300 300">
+    <g class="steam"><path d="M128 120c-14-22 14-34 0-58s10-36 0-52"/><path d="M152 122c-14-22 14-34 0-58s10-36 0-52"/><path d="M176 120c-14-22 14-34 0-58s10-36 0-52"/></g>
+    <ellipse cx="150" cy="262" rx="120" ry="20" fill="var(--bg-3)"/>
+    <ellipse cx="150" cy="256" rx="104" ry="15" fill="var(--surface)" stroke="var(--line-strong)"/>
+    <path d="M72 140h156l-10 82a32 32 0 0 1-32 28h-72a32 32 0 0 1-32-28z" fill="var(--surface)" stroke="var(--line-strong)" stroke-width="1.5"/>
+    <path d="M226 160c26-4 38 10 34 28s-22 26-42 24" fill="none" stroke="var(--line-strong)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M226 160c26-4 38 10 34 28s-22 26-42 24" fill="none" stroke="var(--surface)" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="150" cy="140" rx="78" ry="14" fill="#5a321a"/>
+    <ellipse cx="150" cy="140" rx="70" ry="10.5" fill="#8a5428"/>
+    <path d="M150 148c-10-6-14-10-13-13.5 1-3 6-4 13 0 7-4 12-3 13 0s-3 7.5-13 13.5z" fill="#f2e2c6"/>
+    <path d="M84 176h132" stroke="var(--accent)" stroke-width="1.2" opacity=".5"/>
+  </svg>
+</div></div>
+    <div>
+      <p class="eyebrow reveal">Probieren statt lesen</p>
+      <h2 class="reveal" data-delay="1">Am besten <em>schmeckt</em> es bei uns</h2>
+      <p class="lead reveal" data-delay="2">Unsere Baristas beraten Sie gerne und lassen Sie verschiedene Bohnen probieren. Jeden ersten Samstag im Monat findet ein kleines Cupping statt (Demo-Angabe).</p>
+      <div class="btn-row reveal" data-delay="3"><a class="btn" href="reservieren.html">Tisch reservieren <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="btn btn--ghost" href="karte.html#cafe">Kaffeekarte</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <svg class="logo-stamp " viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#logo-stamp"/></svg>
+        <p>Bäckerei und Café unter einem Dach – seit 1998 in der Altstadt von Demostadt. Jeden Morgen frisch gebacken, jeden Tag mit Liebe serviert.</p>
+      </div>
+      <div>
+        <h4>Besuchen</h4>
+        <ul>
+          <li>Backstubengasse 5</li>
+          <li>9999 Demostadt</li>
+          <li><a href="tel:+41440000000">044 000 00 00</a></li>
+          <li><a href="mailto:info@democafe.ch">info@democafe.ch</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Entdecken</h4>
+        <ul>
+          <li><a href="karte.html">Karte</a></li>
+          <li><a href="kaffee-guide.html">Kaffee-Guide</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Service</h4>
+        <ul>
+          <li><a href="reservieren.html">Tisch reservieren</a></li>
+          <li><a href="torten.html">Torten bestellen</a></li>
+          <li><a href="oeffnungszeiten.html">Öffnungszeiten</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="index.html?wahl">Bereich neu wählen</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Democafé · Demostadt</span>
+      <span class="demo-note">Demo-Website eines fiktiven Betriebs – alle Angaben frei erfunden. Bild- &amp; Videoquellen: <a href="quellen.txt">quellen.txt</a></span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="de-CH" class="no-js" data-area="baeckerei">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tisch reservieren – Democafé</title>
+<meta name="description" content="Tisch im Café von Democafé reservieren: Datum, Uhrzeit, Personen. Demo-Formular.">
+<meta name="theme-color" content="#f6efe3">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/playfair-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script>(function(){var d=document.documentElement;d.classList.remove('no-js');var a=null;try{a=localStorage.getItem('democafe-bereich')}catch(e){}if(a==='cafe'||a==='baeckerei'){d.setAttribute('data-area',a);if(!/[?&]wahl\b/.test(location.search))d.classList.add('no-splash')}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('rm')})();</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="logo-stamp" viewBox="0 0 200 200">
+    <circle cx="100" cy="100" r="96.5" fill="none" stroke="currentColor" stroke-width="2.6"/>
+    <circle cx="100" cy="100" r="91" fill="none" stroke="currentColor" stroke-width=".8"/>
+    <circle cx="100" cy="100" r="62" fill="none" stroke="currentColor" stroke-width=".8"/>
+    <path id="lg-top" d="M24 100A76 76 0 0 1 176 100" fill="none"/>
+    <path id="lg-bot" d="M17.5 100A82.5 82.5 0 0 0 182.5 100" fill="none"/>
+    <text font-family="Playfair Display, Georgia, serif" font-size="19" font-weight="600" letter-spacing="4.2" fill="currentColor"><textPath href="#lg-top" startOffset="50%" text-anchor="middle">DEMOCAFÉ</textPath></text>
+    <text font-family="Figtree, Segoe UI, sans-serif" font-size="9.6" font-weight="600" letter-spacing="3.6" fill="currentColor"><textPath href="#lg-bot" startOffset="50%" text-anchor="middle">BÄCKEREI · CAFÉ</textPath></text>
+    <circle cx="23" cy="104" r="2.2" fill="currentColor"/><circle cx="177" cy="104" r="2.2" fill="currentColor"/>
+    <g fill="currentColor">
+      <g transform="translate(86 96) rotate(-20)">
+        <path d="M0 40Q1.5 4 0 -34" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <ellipse cx="0" cy="-38" rx="3" ry="7.5"/>
+        <ellipse cx="-5.2" cy="-26" rx="3.3" ry="7.6" transform="rotate(-28 -5.2 -26)"/><ellipse cx="5.2" cy="-26" rx="3.3" ry="7.6" transform="rotate(28 5.2 -26)"/>
+        <ellipse cx="-5.6" cy="-13" rx="3.4" ry="7.8" transform="rotate(-28 -5.6 -13)"/><ellipse cx="5.6" cy="-13" rx="3.4" ry="7.8" transform="rotate(28 5.6 -13)"/>
+        <ellipse cx="-5.6" cy="0" rx="3.4" ry="7.8" transform="rotate(-28 -5.6 0)"/><ellipse cx="5.6" cy="0" rx="3.4" ry="7.8" transform="rotate(28 5.6 0)"/>
+        <ellipse cx="-5.2" cy="13" rx="3.2" ry="7.2" transform="rotate(-28 -5.2 13)"/><ellipse cx="5.2" cy="13" rx="3.2" ry="7.2" transform="rotate(28 5.2 13)"/>
+        <path d="M-2 -44L-4 -56M2 -44L4 -56M0 -45V-58" stroke="currentColor" stroke-width=".9" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(117 101) rotate(26)">
+        <path d="M-1.6 -18C-18 -16.5 -18 16.5 -1.6 18C-7 6.5 3.8 -6.5 -1.6 -18Z"/>
+        <path d="M1.6 -18C-3.8 -6.5 7 6.5 1.6 18C18 16.5 18 -16.5 1.6 -18Z"/>
+      </g>
+    </g>
+    <text x="100" y="146" text-anchor="middle" font-family="Figtree, Segoe UI, sans-serif" font-size="7.4" font-weight="600" letter-spacing="2.6" fill="currentColor">DEMOSTADT</text>
+  </symbol>
+</svg>
+
+<a class="sr-only" href="#inhalt">Zum Inhalt springen</a>
+<header class="site-header on-hero">
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a class="brand" href="index.html" aria-label="Democafé – zur Startseite"><svg class="logo-stamp " viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#logo-stamp"/></svg><span class="brand-name">Democafé<small>Bäckerei · Café</small></span></a>
+    <ul class="nav-links"><li><a href="index.html">Start</a></li><li><a href="ueber-uns.html">Über uns</a></li><li><a href="karte.html">Karte</a></li><li><a href="kaffee-guide.html">Kaffee-Guide</a></li><li><a href="torten.html">Torten bestellen</a></li><li><a href="reservieren.html" aria-current="page">Tisch reservieren</a></li><li><a href="galerie.html">Galerie</a></li><li><a href="oeffnungszeiten.html">Öffnungszeiten</a></li><li><a href="kontakt.html">Kontakt</a></li></ul>
+    <div class="area-switch" role="group" aria-label="Bereich wechseln">
+      <span class="pill" aria-hidden="true"></span>
+      <button type="button" data-set-area="baeckerei">Bäckerei</button>
+      <button type="button" data-set-area="cafe">Café</button>
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+<div class="mobile-menu" id="mobile-menu">
+  <ul><li><a href="index.html">Start<span aria-hidden="true">→</span></a></li><li><a href="ueber-uns.html">Über uns<span aria-hidden="true">→</span></a></li><li><a href="karte.html">Karte<span aria-hidden="true">→</span></a></li><li><a href="kaffee-guide.html">Kaffee-Guide<span aria-hidden="true">→</span></a></li><li><a href="torten.html">Torten bestellen<span aria-hidden="true">→</span></a></li><li><a href="reservieren.html" aria-current="page">Tisch reservieren<span aria-hidden="true">→</span></a></li><li><a href="galerie.html">Galerie<span aria-hidden="true">→</span></a></li><li><a href="oeffnungszeiten.html">Öffnungszeiten<span aria-hidden="true">→</span></a></li><li><a href="kontakt.html">Kontakt<span aria-hidden="true">→</span></a></li></ul>
+  <div class="mm-foot">Backstubengasse 5, 9999 Demostadt<br><a href="tel:+41440000000">044 000 00 00</a> · <a href="mailto:info@democafe.ch">info@democafe.ch</a></div>
+</div>
+<main id="inhalt">
+
+
+<section class="page-hero">
+  <div class="bg"><img src="img/cafe-buecher.webp" alt="" width="1600" height="1066" decoding="async" fetchpriority="high"></div>
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Start</a> &nbsp;/&nbsp; Tisch reservieren</p>
+    <p class="eyebrow">Reservation</p>
+    <h1>Ihr <em>Lieblingsplatz</em> wartet</h1>
+    <p class="lead">Reservieren Sie Ihren Tisch für Frühstück, Mittag oder Apéro. Für Gruppen ab 10 Personen rufen Sie uns bitte an.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap form-layout">
+    <form class="form-card" id="reservation-form" data-demo novalidate>
+      <h2>Tisch reservieren</h2>
+      <p class="muted">Demo-Formular – es werden keine Daten gesendet.</p>
+      <fieldset class="fieldset">
+        <legend><span class="n">1</span>Wann &amp; wie viele?</legend>
+        <div class="row-3">
+          <div class="field"><label for="datum">Datum</label><input id="datum" name="datum" type="date" data-min-days="0" required></div>
+          <div class="field"><label for="zeit">Uhrzeit</label><select id="zeit" name="zeit"><option>07:00</option><option>07:30</option><option>08:00</option><option>08:30</option><option>09:00</option><option selected>09:30</option><option>10:00</option><option>10:30</option><option>11:00</option><option>11:30</option><option>12:00</option><option>12:30</option><option>13:00</option><option>13:30</option><option>14:00</option><option>14:30</option><option>15:00</option><option>15:30</option><option>16:00</option><option>16:30</option><option>17:00</option><option>17:30</option><option>18:00</option></select></div>
+          <div class="field"><label for="personen">Personen</label><select id="personen" name="personen"><option value="1">1</option><option value="2" selected>2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></div>
+        </div>
+      </fieldset>
+      <fieldset class="fieldset">
+        <legend><span class="n">2</span>Wo möchten Sie sitzen?</legend>
+        <div class="choice-grid">
+          <label class="choice"><input type="radio" name="bereich" value="salon" data-label="Café-Salon" checked><span>Café-Salon<small>gemütliche Sessel</small></span></label>
+          <label class="choice"><input type="radio" name="bereich" value="fenster" data-label="Fensterplatz"><span>Fensterplatz<small>Blick auf die Gasse</small></span></label>
+          <label class="choice"><input type="radio" name="bereich" value="lese" data-label="Leseecke"><span>Leseecke<small>ruhig, mit Büchern</small></span></label>
+          <label class="choice"><input type="radio" name="bereich" value="terrasse" data-label="Terrasse"><span>Terrasse<small>April–Oktober</small></span></label>
+        </div>
+      </fieldset>
+      <fieldset class="fieldset">
+        <legend><span class="n">3</span>Ihre Angaben</legend>
+        <div class="row-2">
+          <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="telefon">Telefon</label><input id="telefon" name="telefon" type="tel" autocomplete="tel" placeholder="079 000 00 00" required></div>
+        </div>
+        <div class="field"><label for="r-bem">Bemerkung</label><textarea id="r-bem" name="bemerkung" placeholder="z. B. Kinderstuhl, Geburtstag, Allergien"></textarea></div>
+      </fieldset>
+      <button class="btn" type="submit">Reservation anfragen <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      <p class="demo-msg" role="status">Vielen Dank! Dies ist eine Demo-Website – Ihre Reservation wurde <strong>nicht</strong> gesendet.</p>
+    </form>
+    <aside class="preview-card">
+      <div class="preview-visual" style="padding:0"><img src="img/cafe-innen.webp" alt="Café-Salon mit Sesseln" width="1600" height="1066" loading="lazy" decoding="async"></div>
+      <div class="preview-body">
+        <p class="eyebrow" style="margin-bottom:.5rem">Ihre Reservation</p>
+        <h3>Wir halten Ihren Tisch bereit</h3>
+        <ul class="summary">
+          <li><span>Datum</span><span id="res-date">–</span></li>
+          <li><span>Uhrzeit</span><span id="res-time">–</span></li>
+          <li><span>Personen</span><span id="res-pers">–</span></li>
+          <li><span>Platz</span><span id="res-area">–</span></li>
+          <li><span>Name</span><span id="res-name">–</span></li>
+        </ul>
+        <p class="form-hint">Reservierte Tische halten wir 15 Minuten für Sie frei.</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="wrap">
+    <div class="info-tiles">
+      <div class="info-tile reveal"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="11" r="4"/><path d="M4 26c0-4.5 3.5-7 8-7s8 2.5 8 7"/><circle cx="22" cy="10" r="3"/><path d="M22 16c3.5 0 6 2 6 6"/></svg><h3>Gruppen &amp; Anlässe</h3><p>Ab 10 Personen, Firmenapéro oder Geburtstag? Rufen Sie uns an: <a href="tel:+41440000000">044 000 00 00</a></p></div>
+      <div class="info-tile reveal" data-delay="1"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="16" cy="16" r="12"/><path d="M16 9v7l5 3"/></svg><h3>Café-Zeiten</h3><p>Mo–Fr 07:00–19:00<br>Sa 08:00–18:00 · So 08:30–17:00</p></div>
+      <div class="info-tile reveal" data-delay="2"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h18v7a7 7 0 0 1-7 7h-4a7 7 0 0 1-7-7z"/><path d="M23 14h2a3 3 0 0 1 0 6h-2M10 4c-1 2 1 3 0 5M15 4c-1 2 1 3 0 5"/></svg><h3>Spontan vorbei?</h3><p>Ein Teil unserer Tische ist immer für spontane Gäste reserviert.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <svg class="logo-stamp " viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#logo-stamp"/></svg>
+        <p>Bäckerei und Café unter einem Dach – seit 1998 in der Altstadt von Demostadt. Jeden Morgen frisch gebacken, jeden Tag mit Liebe serviert.</p>
+      </div>
+      <div>
+        <h4>Besuchen</h4>
+        <ul>
+          <li>Backstubengasse 5</li>
+          <li>9999 Demostadt</li>
+          <li><a href="tel:+41440000000">044 000 00 00</a></li>
+          <li><a href="mailto:info@democafe.ch">info@democafe.ch</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Entdecken</h4>
+        <ul>
+          <li><a href="karte.html">Karte</a></li>
+          <li><a href="kaffee-guide.html">Kaffee-Guide</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Service</h4>
+        <ul>
+          <li><a href="reservieren.html">Tisch reservieren</a></li>
+          <li><a href="torten.html">Torten bestellen</a></li>
+          <li><a href="oeffnungszeiten.html">Öffnungszeiten</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="index.html?wahl">Bereich neu wählen</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Democafé · Demostadt</span>
+      <span class="demo-note">Demo-Website eines fiktiven Betriebs – alle Angaben frei erfunden. Bild- &amp; Videoquellen: <a href="quellen.txt">quellen.txt</a></span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js" defer></script>
+
+</body>
+</html>
